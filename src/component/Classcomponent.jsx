@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
  class Classcomponent extends Component {
   render() {
     const {phone} = this.props;
