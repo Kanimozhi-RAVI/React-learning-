@@ -14,11 +14,11 @@ useEffect (()=>{
 function updateCount (){
     setCount((previous) => { return  previous +1});
 };
-function checkCount(){
-  if(count > 10){
-    setCount(1)
-  }
-}
+// function checkCount(){
+//   if(count > 10){
+//     setCount(1)
+//   }
+// }
 
   return (
     <div>

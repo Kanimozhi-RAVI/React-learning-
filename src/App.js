@@ -16,6 +16,7 @@ import Multistate from './component/Multistate';
 import Objectstate from './component/Objectstate';
 import Listupdate from './component/Listupdate';
 import Useeffect from './component/Useeffect';
+import Myform from './component/Myform';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <Route path='/objectstate' element = {<Objectstate/>}/>
       <Route path='/listupdate' element = {<Listupdate/>}/>
       <Route path='/useeffect' element = {<Useeffect/>}/>
+      <Route path='/myform' element = {<Myform/>}/>
       
     </Routes>
     </BrowserRouter>
